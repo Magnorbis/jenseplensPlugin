@@ -1,0 +1,14 @@
+name: jenseplensPlugin
+version: 1.0
+description: Plugin gemaakt door jenseplens
+main: me.jenseplens.jenseplensPlugin.Main
+
+commands:
+  jenseplens:
+    description: Geeft informatie over jenseplens
+  staff:
+    description: Laat stafflijst zien
+  locatie:
+    description: Laat je locatie zien
+  jenseplenspluginreload:
+    description: Reload de jenseplensPlugin
