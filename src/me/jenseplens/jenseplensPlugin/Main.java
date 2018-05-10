@@ -2,18 +2,12 @@ package me.jenseplens.jenseplensPlugin;
 
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Main extends JavaPlugin implements CommandExecutor {
-	public void onEnable() {
-		getCommand("jenseplens").setExecutor(this);
-		getCommand("locatie").setExecutor(this);
-		getCommand("jenseplenspluginreload").setExecutor(this);
-		getCommand("staff").setExecutor(this);
-	}
+public class Main extends JavaPlugin {
+	public void onEnable() {}
 	
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
