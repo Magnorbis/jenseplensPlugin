@@ -37,12 +37,12 @@ public class JenseplensPlugin extends JavaPlugin {
 
         //locatie Command
         if(cmd.getName().equalsIgnoreCase("locatie")) {
-            double spelerx = p.getLocation().getBlockX();
-            double spelery = p.getLocation().getBlockY();
-            double spelerz = p.getLocation().getBlockZ();
+            int spelerx = p.getLocation().getBlockX();
+            int spelery = p.getLocation().getBlockY();
+            int spelerz = p.getLocation().getBlockZ();
             p.sendMessage(ChatColor.GREEN.toString() + "x: " + spelerx + " - y: "+ spelery + " - z: " + spelerz);
         }
-            
+
         return true;
         }
     }
