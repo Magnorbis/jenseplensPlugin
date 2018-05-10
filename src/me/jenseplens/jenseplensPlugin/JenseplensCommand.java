@@ -1,5 +1,5 @@
 package me.jenseplens.jenseplensPlugin;
 
-public class jenseplensCommand {
+public class JenseplensCommand {
 
 }
