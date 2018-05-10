@@ -16,22 +16,24 @@ public class Main extends JavaPlugin {
             sender.sendMessage(ChatColor.GREEN.toString() + "Eigenaar: jenseplens");
             sender.sendMessage(ChatColor.GREEN.toString() + "Developer: SplashIV");
             sender.sendMessage(ChatColor.GREEN.toString() + "Bouwer: MelsBov");
-        }       
+        }
+
         //jenseplens Command
         if(cmd.getName().equalsIgnoreCase("jenseplens")) {
             sender.sendMessage(ChatColor.GREEN.toString() + "jenseplens is de eigenaar van deze server");
         }
+
         //plugin Reload Command
         if(cmd.getName().equalsIgnoreCase("jenseplenspluginreload") && sender.hasPermission("jenseplensplugin.reload")) {
             this.reloadConfig();
             sender.sendMessage("Toppie, gereload.");
         }
+
         if(!(sender instanceof Player)) {
             sender.sendMessage("Dit commando kan niet worden uitgevoerd door de console!");
             return true;
         }
         Player p = (Player) sender;
-        
 
         //locatie Command
         if(cmd.getName().equalsIgnoreCase("locatie")) {
