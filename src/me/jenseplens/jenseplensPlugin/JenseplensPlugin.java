@@ -14,7 +14,8 @@ public class JenseplensPlugin extends JavaPlugin {
         //staff Command
         if(cmd.getName().equalsIgnoreCase("staff")) {
             sender.sendMessage(ChatColor.GREEN.toString() + "Eigenaar: jenseplens");
-            sender.sendMessage(ChatColor.GREEN.toString() + "Developer: SplashIV");
+            sender.sendMessage(ChatColor.GREEN.toString() + "Administrator: SplashIV");
+            sender.sendMessage(ChatColor.GREEN.toString() + "Developer: The947thTokay");
             sender.sendMessage(ChatColor.GREEN.toString() + "Bouwer: MelsBov");
         }
 
