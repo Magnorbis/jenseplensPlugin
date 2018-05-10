@@ -1,7 +1,7 @@
 name: jenseplensPlugin
 version: 1.0
 description: Plugin gemaakt door jenseplens
-main: me.jenseplens.jenseplensPlugin.Main
+main: me.jenseplens.jenseplensPlugin.JenseplensPlugin
 
 commands:
   jenseplens:
