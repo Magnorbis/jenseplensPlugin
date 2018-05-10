@@ -7,8 +7,6 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class JenseplensPlugin extends JavaPlugin {
-	public void onEnable() {}
-	
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         //staff Command
