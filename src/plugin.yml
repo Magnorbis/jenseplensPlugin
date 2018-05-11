@@ -4,8 +4,6 @@ description: Plugin voor jenseplens zijn server
 main: me.jenseplens.jenseplensPlugin.JenseplensPlugin
 
 commands:
-  jenseplens:
-    description: Geeft informatie over jenseplens
   staff:
     description: Laat stafflijst zien
   locatie:

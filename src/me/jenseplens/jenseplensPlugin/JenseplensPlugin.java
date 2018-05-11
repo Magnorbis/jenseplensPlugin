@@ -33,11 +33,6 @@ public class JenseplensPlugin extends JavaPlugin {
             sender.sendMessage(ChatColor.GREEN.toString() + "Bouwer: MelsBov");
         }
 
-        // jenseplens Command
-        else if(cmd.getName().equalsIgnoreCase("jenseplens")) {
-            sender.sendMessage(ChatColor.GREEN.toString() + "jenseplens is de eigenaar van deze server");
-        }
-
         // locatie Command (can only be executed by players)
         else if(sender instanceof Player && cmd.getName().equalsIgnoreCase("locatie")) {
             Player p = (Player) sender;
